@@ -26,7 +26,7 @@ export default [
     {
         "id": 3,
         "image": Profile3,
-        "name": "Lara Chen",
+        "name": "Bonnie Green",
         "statusKey": "offline",
         "icon": faCalendarCheck,
         "btnText": "Invite"

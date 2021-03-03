@@ -99,8 +99,9 @@ export default (props = {}) => {
               <NavItem title="Drone" link={Routes.Presentation.path} image={ReactHero} />
 
               <NavItem title="Overview" link={Routes.DashboardOverview.path} icon={faChartPie} />
+              <NavItem title="影像播放" icon={faVideo} link={Routes.VideoPlayer.path} />
               <NavItem title="影像管理" icon={faTasks} link={Routes.BootstrapTables.path} />
-              <NavItem title="影像播放" icon={faVideo} link={Routes.ResetPassword.path} />
+   
               {/* <CollapsableNavItem eventKey="tables/" title="影像管理" icon={faTasks}>
               <NavItem title="影像上傳" icon={faFileUpload} link={Routes.BootstrapTables.path} />
               <NavItem title="影像播放" icon={faVideo} link={Routes.Upgrade.path} />
@@ -109,6 +110,7 @@ export default (props = {}) => {
               <NavItem title="效能監控" icon={faHeartbeat} link={Routes.NotFound.path} />
               <NavItem title="日誌" icon={faClipboardList} link={Routes.ServerError.path} />
               <NavItem title="Settings" icon={faCog} link={Routes.Settings.path} />
+              <NavItem title="影像播放" icon={faVideo} link={Routes.ResetPassword.path} />
             </Nav>
           </div>
         </SimpleBar>
