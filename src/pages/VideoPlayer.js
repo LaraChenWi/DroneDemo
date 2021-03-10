@@ -7,7 +7,8 @@ import { Col, Row, Button, Dropdown, ButtonGroup } from '@themesberg/react-boots
 import { CounterWidget, CircleChartWidget, BarChartWidget, TeamMembersWidget, ProgressTrackWidget, RankingWidget, SalesValueWidget, SalesValueWidgetPhone, AcquisitionWidget } from "../components/Widgets";
 import { PageVisitsTable } from "../components/Tables";
 import { trafficShares, totalOrders } from "../data/charts";
-import { BasePlayer } from "../components/Player";
+import { BasePlayer,MutiPlayer } from "../components/Player";
+import { BaseDrag} from "../components/DragCard";
 export default () => {
   return (
     <>
@@ -42,6 +43,13 @@ export default () => {
       </div>
 
       <Row className="justify-content-md-center">
+      <Col xs={12} className="mb-4 d-none d-sm-block">
+          <BaseDrag
+            title="Sales Value"
+            value="10,567"
+            percentage={10.57}
+          />
+        </Col>
         <Col xs={12} className="mb-4 d-none d-sm-block">
           <BasePlayer
             title="Sales Value"
