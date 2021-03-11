@@ -45,7 +45,7 @@ function Board({ squareCount, knightPosition }) {
         <div
             style={{
                 width: '100%',
-                height: '500px',
+                height: '100vh',
                 display: 'flex',
                 flexWrap: 'wrap'
             }}
@@ -59,7 +59,7 @@ export const BaseDrag = () => {
     return (
         <Card border="light" className="shadow-sm">
             <Card.Body>
-                <Board squareCount={4} knightPosition={[6, 4]} />
+                <Board squareCount={4} knightPosition={[0, 0]} />
 
             </Card.Body>
         </Card>
